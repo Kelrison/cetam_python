@@ -1,13 +1,25 @@
 print ("Olá Mundo!")
+#Feature de cadastro de clientes versão 1 - dev  Kelrison
 
-nome ="Kelrison"
+#mensagem = "Olá Mundo!"
+
+#print (mensagem)
+
+nome = "Kelrison"
 idade = 36
 
-print (nome)
-print("Minha idade é:",idade)
+#Solução 1
+idade_futura = idade + 5
+#Solução 2
+print(idade + 5)
+print(idade)
 
-nome_completo = (input("Informe seu nome:"))
+print("Daqui a cinco anos você terá:",idade_futura)
 
-print ("Meu nome completo é:",nome_completo)
-peso = (input("Informe seu peso:"))
-print ("Meu peso é:",peso)
+
+
+
+
+
+
+#print ("Olá", nome, "seja bem vindo!" )
