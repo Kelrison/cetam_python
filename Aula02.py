@@ -8,22 +8,14 @@ altura = float(input("Informe sua altura:"))
 print ("O nome informado foi:", nome)
 print ("A idade informada foi:", idade)
 print ("A altura informada foi:", altura)
-print (f"A altura informada foi: {nome}")
 
-<<<<<<< Updated upstream
-
-if idade >= 18:
-    print("Voto obrigatório")
-else:
-    print("Voto NÃO obrigatório")
-=======
 #Implementação 02
 print(f"O nome informado foi:{nome}")
+print(f"A idade informada foi:{idade} ")
+print(f"A altura informada foi:{altura}")
 
 if idade >= 18:
     print("Voto Obrigatório!")
 else:
     print("Voto NÃO Obrigatório!")
 
-#Implementação 02
->>>>>>> Stashed changes
